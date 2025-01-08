@@ -40,3 +40,5 @@ L'application a été déployée sur Power BI Online et est accessible via l'URL
 1. **Cloner le repository** :
    ```bash
    git clone https://github.com/votre-utilisateur/iut_sd2_powerbi_enedis.git
+2. **Ouvrir le fichier .pbix dans Power BI Desktop.**
+3. **Publier le rapport en vous connectant à Power BI Online via l'option "Publier" dans Power BI Desktop.**
