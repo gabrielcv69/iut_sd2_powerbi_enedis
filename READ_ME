@@ -1,0 +1,42 @@
+# Projet Power BI - GreenTech Solutions
+
+## Contexte
+
+Ce projet a été réalisé dans le cadre du projet Power BI pour la société fictive **GreenTech Solutions**, mandatée par **Enedis**. L'objectif est d'établir un état des lieux de la performance énergétique des logements dans une ville, en vue de proposer des solutions pour améliorer la sobriété énergétique.
+
+## Objectifs
+
+- Importer et analyser les données de consommation énergétique des logements.
+- Créer des visualisations claires et interactives pour aider à la prise de décision.
+- Proposer une comparaison de la performance énergétique entre différentes villes.
+- Déployer l'application sur Power BI Online pour permettre aux utilisateurs finaux d'accéder aux rapports.
+
+## Fonctionnalités
+
+### Standard
+- Importation et nettoyage des données (CSV/Excel) avec Power Query.
+- Modèle de données simple (une table principale avec des dimensions comme région, type de logement, année).
+- Visualisations interactives : histogrammes, graphiques en courbes, cartes.
+- Filtres interactifs (Slicers) pour explorer les données par région, type de logement et année.
+- Thème simple et navigation basique entre plusieurs pages (Tableau de bord, Détails).
+
+### Intermédiaire
+- Modèle de données étoilé avec plusieurs dimensions (régions, types de logements, années).
+- Carte interactive pour visualiser la répartition géographique de la consommation énergétique.
+- Design épuré avec des boutons de navigation personnalisés.
+- Slicers hiérarchiques (région > sous-région > ville).
+
+### Expert
+- Menus interactifs et onglets pour comparer deux villes au choix.
+- Rôles de sécurité (RLS) pour restreindre l'accès aux données en fonction des régions.
+- Analyse de performance via l'outil "Analyseur de performances" de Power BI.
+
+## Déploiement
+
+L'application a été déployée sur Power BI Online et est accessible via l'URL suivante : [Lien vers l'application](https://app.powerbi.com/).
+
+## Installation et Utilisation
+
+1. **Cloner le repository** :
+   ```bash
+   git clone https://github.com/votre-utilisateur/iut_sd2_powerbi_enedis.git
