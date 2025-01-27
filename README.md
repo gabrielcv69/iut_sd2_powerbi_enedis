@@ -37,7 +37,7 @@ Les données utilisées dans ce projet proviennent de deux **API** issues du sit
   - **Parcourez** les différentes pages via le **menu** ou les **onglets**.
   - _Utilisez les filtres pour personnaliser votre vue._
 
-**Lien vidéo** : [https://youtu.be/W6DzU_dJbQM](https://youtu.be/W6DzU_dJbQM)
+**Lien vidéo** : 
 
 ---
 
