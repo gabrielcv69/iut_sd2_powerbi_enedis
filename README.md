@@ -10,7 +10,7 @@ Il conçu pour offrir une visualisation _claire_ et **interactive** des données
 - **Indicateurs clés (KPI)** : Présentation de données importantes telles que _la consommation d'énergie_ et **les émissions de CO2**.
 
 ## **Sources de données**
-Les données utilisées dans ce projet proviennent de deux **API** issues du site [Data.ademe.fr](https://data.ademe.fr), fournissant des informations sur les **logements** (_anciens_ et _neufs_) du département du Loir-et-Cher. Après extraction, seules les variables pertinentes à notre étude ont été retenues.
+Les données utilisées dans ce projet proviennent de deux **API** issues du site [Data.ademe.fr](https://data.ademe.fr), fournissant des informations sur les **logements** (_anciens_ et _neufs_) du département de **Nice** et **Lyon**. Après extraction, seules les variables pertinentes à notre étude ont été retenues.
 
 - **Logements existants** : _Données sur les logements déjà construits._
 - **Logements neufs** : _Informations sur les nouvelles constructions._
