@@ -1,6 +1,7 @@
 # **Projet Power BI - Visualisation de données Enedis**
 
-Ce projet **Power BI** a été conçu pour offrir une visualisation _claire_ et **interactive** des données relatives à l'énergie fournie par **Enedis**. Le tableau de bord permet une exploration approfondie des données essentielles, facilitant ainsi la prise de décision _éclairée_.
+Ce projet **Power BI** a été réalisé par **Gabriel CLAIRAC-VUITTON** et **Aymen GUERMASSI**. 
+Il conçu pour offrir une visualisation _claire_ et **interactive** des données relatives à l'énergie fournie par **Enedis**. Le tableau de bord permet une exploration approfondie des données essentielles, facilitant ainsi la prise de décision _éclairée_.
 
 ## **Principales fonctionnalités**
 - **Visualisations interactives** : Graphiques dynamiques, tableaux et cartes permettant une analyse détaillée.
@@ -38,9 +39,5 @@ Les données utilisées dans ce projet proviennent de deux **API** issues du sit
 **Lien vidéo** : [https://youtu.be/W6DzU_dJbQM](https://youtu.be/W6DzU_dJbQM)
 
 ---
-
-## **Auteurs**
-- **Gabriel CLAIRACVUITTON**
-- **Aymen GUERMASSI**
 
 **Organisation** : _GreenTech Solutions_
