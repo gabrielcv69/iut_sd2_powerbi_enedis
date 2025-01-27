@@ -1,44 +1,46 @@
-# Projet Power BI - GreenTech Solutions
+# **Projet Power BI - Visualisation de données Enedis**
 
-## Contexte
+Ce projet **Power BI** a été conçu pour offrir une visualisation _claire_ et **interactive** des données relatives à l'énergie fournie par **Enedis**. Le tableau de bord permet une exploration approfondie des données essentielles, facilitant ainsi la prise de décision _éclairée_.
 
-Ce projet a été réalisé dans le cadre du projet Power BI pour la société fictive **GreenTech Solutions**, mandatée par **Enedis**. L'objectif est d'établir un état des lieux de la performance énergétique des logements dans une ville, en vue de proposer des solutions pour améliorer la sobriété énergétique.
+## **Principales fonctionnalités**
+- **Visualisations interactives** : Graphiques dynamiques, tableaux et cartes permettant une analyse détaillée.
+- **Filtres personnalisés** : Options de filtrage selon différents critères comme _le type de logement_, la région, et **l'étiquette DPE**.
+- **Indicateurs clés (KPI)** : Présentation de données importantes telles que _la consommation d'énergie_ et **les émissions de CO2**.
 
-## Objectifs
+## **Sources de données**
+Les données utilisées dans ce projet proviennent de deux **API** issues du site [Data.ademe.fr](https://data.ademe.fr), fournissant des informations sur les **logements** (_anciens_ et _neufs_) du département du Loir-et-Cher. Après extraction, seules les variables pertinentes à notre étude ont été retenues.
 
-- Importer et analyser les données de consommation énergétique des logements.
-- Créer des visualisations claires et interactives pour aider à la prise de décision.
-- Proposer une comparaison de la performance énergétique entre différentes villes.
-- Déployer l'application sur Power BI Online pour permettre aux utilisateurs finaux d'accéder aux rapports.
+- **Logements existants** : _Données sur les logements déjà construits._
+- **Logements neufs** : _Informations sur les nouvelles constructions._
+- **Localisation des logements** : Base de données répertoriant les **adresses et emplacements géographiques**.
 
-## Fonctionnalités
+## **Navigation dans le tableau de bord**
+- **Page d'accueil** : _Introduction et accès aux différentes sections._
+- **Pages thématiques** : Visualisations classées par **type de logement** (ancien, neuf, ou comparatif).
 
-### Standard
-- Importation et nettoyage des données (CSV/Excel) avec Power Query.
-- Modèle de données simple (une table principale avec des dimensions comme région, type de logement, année).
-- Visualisations interactives : histogrammes, graphiques en courbes, cartes.
-- Filtres interactifs (Slicers) pour explorer les données par région, type de logement et année.
-- Thème simple et navigation basique entre plusieurs pages (Tableau de bord, Détails).
+## **Technologies utilisées**
+- **Microsoft Power BI** : Outil principal pour la **création** et la **publication** du tableau de bord.
+- **Fichiers CSV** : _Trois fichiers CSV contenant les données brutes._
 
-### Intermédiaire
-- Modèle de données étoilé avec plusieurs dimensions (régions, types de logements, années).
-- Carte interactive pour visualiser la répartition géographique de la consommation énergétique.
-- Design épuré avec des boutons de navigation personnalisés.
-- Slicers hiérarchiques (région > sous-région > ville).
+## **Instructions d'utilisation**
+- **Prérequis** :
+  - _Power BI Desktop_ ou accès en ligne via **Power BI**.
+  - _Droits d'accès aux données associées_.
 
-### Expert
-- Menus interactifs et onglets pour comparer deux villes au choix.
-- Rôles de sécurité (RLS) pour restreindre l'accès aux données en fonction des régions.
-- Analyse de performance via l'outil "Analyseur de performances" de Power BI.
+- **Ouverture du fichier** :
+  1. **Télécharger** le fichier .pbix fourni avec le projet.
+  2. _Ouvrir le fichier_ dans **Power BI Desktop**.
 
-## Déploiement
+- **Exploration** :
+  - **Parcourez** les différentes pages via le **menu** ou les **onglets**.
+  - _Utilisez les filtres pour personnaliser votre vue._
 
-L'application a été déployée sur Power BI Online et est accessible via l'URL suivante : [Lien vers l'application](https://app.powerbi.com/).
+**Lien vidéo** : [https://youtu.be/W6DzU_dJbQM](https://youtu.be/W6DzU_dJbQM)
 
-## Installation et Utilisation
+---
 
-1. **Cloner le repository** :
-   ```bash
-   git clone https://github.com/votre-utilisateur/iut_sd2_powerbi_enedis.git
-2. **Ouvrir le fichier .pbix dans Power BI Desktop.**
-3. **Publier le rapport en vous connectant à Power BI Online via l'option "Publier" dans Power BI Desktop.**
+## **Auteurs**
+- **Gabriel CLAIRACVUITTON**
+- **Aymen GUERMASSI**
+
+**Organisation** : _GreenTech Solutions_
