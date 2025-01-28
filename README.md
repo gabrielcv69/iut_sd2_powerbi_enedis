@@ -31,7 +31,9 @@ Les données utilisées dans ce projet proviennent de deux **API** issues du sit
 
 - **Ouverture du fichier** :
   1. **Télécharger** le fichier .pbix fourni avec le projet.
-  2. _Ouvrir le fichier_ dans **Power BI Desktop**.
+  2. **Télécharger** les données via ce lien Google Drive : 
+  https://drive.google.com/drive/folders/1vJKXQ4NmwuvBP8n1VXi4s0DcSvsMVB98
+  3. _Ouvrir le fichier_ dans **Power BI Desktop**.
 
 - **Exploration** :
   - **Parcourez** les différentes pages via le **menu** ou les **onglets**.
